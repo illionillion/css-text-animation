@@ -1,0 +1,139 @@
+@keyframes fadeInAnimation1 {
+  from {
+    opacity: 0; /* 透明から開始 */
+  }
+  to {
+    opacity: 1; /* 完全に表示されるまでフェードイン */
+  }
+}
+
+@keyframes fadeInAnimation2 {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes fadeInAnimation3 {
+  from {
+    transform: rotateY(90deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes fadeInAnimation4 {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+#sample_01 p span {
+  display: inline-block;
+  animation: fadeInAnimation1 1s forwards;
+  opacity: 0;
+}
+
+#sample_01 p span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+#sample_01 p span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+#sample_01 p span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+#sample_01 p span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+#sample_01 p span:nth-child(5) {
+  animation-delay: 1s;
+}
+
+#sample_02 p span {
+  display: inline-block;
+  animation: fadeInAnimation2 1s forwards;
+  visibility: hidden;
+}
+
+#sample_02 p span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+#sample_02 p span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+#sample_02 p span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+#sample_02 p span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+#sample_02 p span:nth-child(5) {
+  animation-delay: 1s;
+}
+
+#sample_03 p span {
+  display: inline-block;
+  animation: fadeInAnimation3 1s forwards;
+  transform: rotateY(90deg);
+}
+
+#sample_03 p span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+#sample_03 p span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+#sample_03 p span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+#sample_03 p span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+#sample_03 p span:nth-child(5) {
+  animation-delay: 1s;
+}
+
+#sample_04 p span {
+  display: inline-block;
+  animation: fadeInAnimation4 1s forwards;
+  transform: rotateX(90deg);
+}
+
+#sample_04 p span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+#sample_04 p span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+#sample_04 p span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+#sample_04 p span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+#sample_04 p span:nth-child(5) {
+  animation-delay: 1s;
+}
